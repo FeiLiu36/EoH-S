@@ -1,10 +1,10 @@
 # EoH-S: Evolution of Heuristic Set using LLMs for Automated Heuristic Design
 
-[![AAAI 2025](https://img.shields.io/badge/AAAI-2025-blue.svg)](https://openreview.net/forum?id=JiOY4d5ktq)
+[![AAAI 2026](https://img.shields.io/badge/AAAI-2025-blue.svg)](https://openreview.net/forum?id=JiOY4d5ktq)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-Official implementation of [**"EoH-S: Evolution of Heuristic Set using LLMs for Automated Heuristic Design"** ](https://arxiv.org/abs/2508.03082)accepted at **AAAI** 2025 as an **Oral** presentation.
+Official implementation of [**"EoH-S: Evolution of Heuristic Set using LLMs for Automated Heuristic Design"** ](https://arxiv.org/abs/2508.03082)accepted at **AAAI** 2026 as an **Oral** presentation.
 
 [Paper](https://openreview.net/forum?id=JiOY4d5ktq) | [Project Page](#) | [Demo](#)
 
@@ -158,11 +158,11 @@ You can modify the configuration files in `examples/` to customize:
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@inproceedings{liu2025eohs,
+@inproceedings{liu2026eohs,
   title={EoH-S: Evolution of Heuristic Set using {LLM}s for Automated Heuristic Design},
   author={Fei Liu, Yilu Liu, Qingfu Zhang, Xialiang Tong, Mingxuan Yuan},
   booktitle={The Fortieth AAAI Conference on Artificial Intelligence},
-  year={2025},
+  year={2026},
   url={https://openreview.net/forum?id=JiOY4d5ktq}
 }
 ```
@@ -178,7 +178,7 @@ This project is licensed under the MIT License - see the [LICENSE] file for deta
 ## 🙏 Acknowledgments
 
 - Built on the [LLM4AD](https://github.com/Optima-CityU/LLM4AD) platform
-- Thanks to the AAAI 2025 reviewers for their valuable feedback
+- Thanks to the AAAI 2026 reviewers for their valuable feedback
 
 ---
 
