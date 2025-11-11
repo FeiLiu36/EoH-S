@@ -24,19 +24,18 @@ Official implementation of [**"EoH-S: Evolution of Heuristic Set using LLMs for 
 
 ## 🔍 Overview
 
-**EoH-S (Evolution of Heuristic Set)** is a novel framework that leverages Large Language Models (LLMs) for automated heuristic design. Our approach evolves a small-sized set of complementary heuristics through iterative refinement, enabling superior cross-distribution performance across various algorithm design tasks.
+**EoH-S (Evolution of Heuristic Set)** introduces **Automated Heuristic Set Design (AHSD)**, a novel formulation that addresses the generalization limitations of traditional LLM-driven Automated Heuristic Design (AHD). While existing methods design a single heuristic for all problem instances, EoH-S automatically generates a small-sized complementary heuristic set where each problem instance is optimized by at least one heuristic in the set.
 
 ### Key Features
 
-- 🚀 **Automated Heuristic Design**: Leverages LLMs to automatically generate and evolve heuristics
-- 🎯 **Set-based Evolution**: Maintains and evolves a diverse set of heuristics rather than a single solution
-- 🔄 **Iterative Refinement**: Continuously improves heuristic quality through evolutionary strategies
-- 📊 **Broad Applicability**: Tested on multiple combinatorial optimization tasks
-- ⚡ **State-of-the-art Performance**: Achieves competitive results compared to existing methods
+- 🎯 **Automated Heuristic Set Design (AHSD)**: Novel formulation that generates complementary heuristic sets instead of single heuristics
+- 🔄 **Complementary Population Management**: Maintains diversity through specialized population management strategies
+- 🧠 **Diversity-Aware Memetic Search**: Combines evolutionary search with local refinement for high-quality heuristic discovery
+- 🌐 **Robust Cross-Distribution Performance**: Designed heuristics show strong generalization across instances of varying sizes and distributions
 
 ### Method Overview
 
-![Figure 1: Overview of the EoH-S framework and Comparison to Existing LLM-driven AHD methods](https://github.com/FeiLiu36/EoH-S/raw/main/figures/figure1.png)
+![Figure 1: Overview of the EoH-S framework and Comparison to Existing LLM-driven AHD methods](https://github.com/FeiLiu36/EoH-S/raw/main/figures/framework.png)
 
 ---
 
@@ -62,7 +61,7 @@ Official implementation of [**"EoH-S: Evolution of Heuristic Set using LLMs for 
 1. **Clone the repository**
    
    ```bash
-   git clone https://github.com/yourusername/eohs.git
+   git clone https://github.com/FeiLiu36/EoH-S.git
    cd eohs
    ```
    
@@ -172,7 +171,7 @@ If you find this work useful, please cite our paper:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE] file for details.
 
 ---
 
