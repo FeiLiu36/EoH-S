@@ -12,8 +12,8 @@ from llm4ad.tools.profiler import ProfilerBase
 
 if __name__ == '__main__':
 
-    llm = HttpsApi(host='api.bltcy.ai',  # your host endpoint, e.g., 'api.openai.com', 'api.deepseek.com'
-                   key='sk-dKMuUHsISnfTuYGPDb78437190Db4bC19f968bC796260230',  # your key, e.g., 'sk-abcdefghijklmn'
+    llm = HttpsApi(host='xxx',  # your host endpoint, e.g., 'api.openai.com', 'api.deepseek.com'
+                   key='xxx',  # your key, e.g., 'sk-abcdefghijklmn'
                    model='deepseek-v3',  # your llm, e.g., 'gpt-3.5-turbo'
                    timeout=60)
 
