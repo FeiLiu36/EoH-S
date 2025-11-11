@@ -1,6 +1,5 @@
 # EoH-S: Evolution of Heuristic Set using LLMs for Automated Heuristic Design
 
-[![AAAI 2026](https://img.shields.io/badge/AAAI-2025-blue.svg)](https://openreview.net/forum?id=JiOY4d5ktq)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
