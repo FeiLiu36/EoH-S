@@ -17,6 +17,7 @@ def main():
     task = OBPSEvaluation(
         timeout_seconds=120,
         dataset='./dataset_100_2k_128_5_80_training.pkl',
+        n_instances=128,
         return_list=True)
 
     method = EoHS(llm=llm,
